@@ -1,18 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- page title for reference -->
-    <title>martin's aquarium-my aquarium exercise</title>
-    <!-- references stylesheet that doesn't actually exist yet-->
-    <link rel="stylesheet" href="styles/main.css">
-  </head>
-  <!-- displayed objects after this point -->
-  <body>
-	<header class="pageHeader"><h1>Welcome to Martin's Aquarium</h></header>
-        
-        <section class="list">
-            <article class="shop">The Jam</article>
-            <article class="shop">The Horn</article>
-        </section>
-  </body>
+
+<head>
+  <!-- page title for reference -->
+  <title>martin's aquarium-my aquarium exercise</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<!-- displayed objects after this point -->
+<header class="pageHeader">
+  <center>
+    <h1>Welcome to Martin's Aquarium</h>
+  </center>
+</header>
+
+<body class="fishPage">
+  <header class="fishHeader">
+    <h2>Martin's Friends</h>
+  </header>
+  <main>
+    <bloop class="bloop"></bloop>
+    <!-- the asides need to go off to the right side -->
+    <aside class="fishAside">
+      <div>
+        <h4>Care Notes</h4>
+      </div>
+      <div>
+        <h5>Tank maintenance:</h5>
+      </div>
+      <div>
+        <h6>• Keep it wet</h6>
+      </div>
+      <div>
+        <h5>Water Condition:</h5>
+      </div>
+      <div>
+        <h6>• Full</h6>
+      </div>
+    </aside>
+  </main>
+  <!-- start of harvest locations portion of page -->
+  <header class="locationsHeader">
+    <h2><center>Friend Harvest Locations</center></h2>
+  </header>
+  <section>*This is where Martin's travel quotes go*</section>
+  <section class="locationList">
+    <section class="location">The Jam</section>
+    <section class="location">The Horn</section>
+  </section>
+  <script type="module" src="./scripts/main.js"></script>
+</body>
+
 </html>

@@ -1,0 +1,54 @@
+.fishHeader {
+    justify-content: flex-end;
+    border: 1px solid blue;
+    /*     background: blue; */
+}
+
+main {
+    display: flex;
+    /*  flex-direction: row;    */
+}
+
+bloop {
+    display: flex;
+    /*     max-width: 5%; */
+    /*     flex-align: center; */
+    background-color: blue;
+    flex-basis: 75rem;
+    border: 10px solid #00800b;
+}
+
+.fishAside {
+    /*     max-width: 30%; */
+    align-content: center;
+    flex-basis: 20rem;
+    border: 1px dotted orange;
+    background: sienna;
+    /* flex-direction: column; */
+}
+
+img {
+    height: 15em;
+    width: auto;
+}
+
+section {
+    border: 2px dotted tomato;
+}
+
+/* .fishCard{
+    background: teal;
+} */
+.fishList {
+    /*  max-width: 70%; */
+    flex-basis: 100%;
+    /*   flex-direction: row; */
+    background: blueviolet;
+}
+
+/* maybe the body section doesn't do anything */
+body {
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
