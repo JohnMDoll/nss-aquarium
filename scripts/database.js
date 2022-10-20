@@ -14,7 +14,7 @@ const database = {
             id: 1,
             name: "Bart",
             food: "crustaceans",
-            length: 3,
+            length: 15,
             location: "Springfield",
             species: "Simpson",
             image: "https://img.freepik.com/free-vector/fish-bowl-concept-illustration_114360-2924.jpg?size=338&ext=jpg&ga=GA1.2.1928629802.1664562208"
@@ -23,7 +23,7 @@ const database = {
             id: 2,
             name: "William",
             food: "Kelp",
-            length: 13,
+            length: 73,
             location: "The Jam",
             species: "Hipsterus Fishium",
             image: "https://img.freepik.com/free-photo/young-handsome-man-white-shirt-open-having-breakfast-cafe-with-vegetarian-burger-drinking-coffee-lifestyle-tropical-island-life-bali_1321-3923.jpg?size=338&ext=jpg&ga=GA1.2.1928629802.1664562208"
@@ -31,7 +31,7 @@ const database = {
             id: 3,
             name: "Martin",
             food: "seeds",
-            length: 8,
+            length: 6,
             location: "North America",
             species: "Purple Martin",
             image: "https://img.freepik.com/free-vector/cute-halibut-fish-white-background_1308-110798.jpg?size=626&ext=jpg&ga=GA1.2.1928629802.1664562208"
